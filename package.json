@@ -1,7 +1,12 @@
 {
     "name": "@rbxts/brand",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
+    "main": "out/init.lua",
+    "scripts": {
+        "build": "rbxtsc",
+        "prepublishOnly": "bun run build"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mathfox/rbx-brand.git"
@@ -10,6 +15,7 @@
         "roblox",
         "brand"
     ],
+    "types": "src/index.ts",
     "author": {
         "name": "Ivan Leontev",
         "url": "https://github.com/mathfox"
@@ -20,12 +26,15 @@
     },
     "homepage": "https://github.com/mathfox/rbx-brand#readme",
     "files": [
-        "src"
+        "out"
     ],
     "publishConfig": {
         "access": "public"
     },
     "devDependencies": {
+        "@rbxts/compiler-types": "^2.3.0-types.1",
+        "@rbxts/types": "^1.0.791",
+        "roblox-ts": "*",
         "typescript": "*"
     }
 }
