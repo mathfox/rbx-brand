@@ -1,0 +1,31 @@
+{
+    "name": "@rbxts/brand",
+    "version": "0.0.1",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mathfox/rbx-brand.git"
+    },
+    "keywords": [
+        "roblox",
+        "brand"
+    ],
+    "author": {
+        "name": "Ivan Leontev",
+        "url": "https://github.com/mathfox"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mathfox/rbx-brand/issues"
+    },
+    "homepage": "https://github.com/mathfox/rbx-brand#readme",
+    "files": [
+        "src"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "typescript": "*"
+    }
+}
