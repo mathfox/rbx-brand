@@ -1,6 +1,6 @@
 {
     "name": "@rbxts/brand",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "",
     "main": "out/init.lua",
     "scripts": {
@@ -15,7 +15,7 @@
         "roblox",
         "brand"
     ],
-    "types": "src/index.ts",
+    "types": "out/index.d.ts",
     "author": {
         "name": "Ivan Leontev",
         "url": "https://github.com/mathfox"
